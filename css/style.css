@@ -85,7 +85,7 @@ main{
     border: solid;
     border-color: #FFFFFF;
     flex-direction: column;
-    align-content: center;
+    align-content: space-around;
     align-items: center;
     margin:1.5em;
 }
@@ -97,7 +97,7 @@ main{
      -3px 3px 7px 1px #FFFFFF59 inset,
       6px -3px 4px 0px #8E0833 inset;   
     border-radius:50%;
-    margin: 3em auto;
+    margin: 2em auto 0em;
     position: relative;
 }
 .sparkle{
@@ -115,6 +115,8 @@ article{
     color: #FFFFFF;
     flex-grow:1;
     margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
 }
 article h2{
     letter-spacing: 0.12em;
@@ -124,8 +126,9 @@ article h2{
     margin-bottom:0;
 }
 article .line{
-    font-size: 50px;
+    font-size: 30px;
     margin-top:0;
+    margin-bottom: 0;
 }
 article p{
     width: 80%;
@@ -148,6 +151,7 @@ footer{
 }
 footer p{
     letter-spacing: 0.1em;
+    line-height: 2em;
     font-size: 12px;
 }
 .mdi-diamond-stone{
